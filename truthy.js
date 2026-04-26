@@ -1,9 +1,14 @@
+// true value
 let data = 0;
-data = 1;
+data = -0;
 data = '';
 data = undefined;
 data = null;
 data = '0';
+data = NaN;
+// false value
+data = 1;
+data = -1;
 data = [];
 data = {};
 
