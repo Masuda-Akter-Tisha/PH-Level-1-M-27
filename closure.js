@@ -25,11 +25,18 @@ function counter (owner) {
     let count = 0;
     function increment () {
         count ++;
-        console.log('value of count:', owner, count);
+        console.log('The counter master:', owner, 'and value of count:', count);
     }
     return increment;
 }
-const count1 = counter ();
+const rahimStation = counter ('Rahim');
 // console.log(result);
-count1 ();
-count1 ();
+rahimStation ();
+rahimStation ();
+rahimStation ();
+rahimStation ();
+
+const karimStation = counter ('karim');
+karimStation ();
+karimStation ();
+karimStation ();
