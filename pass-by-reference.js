@@ -9,7 +9,7 @@ function firstSum (array1, array2) {
 let num1 = [1, 2, 3];
 let num2 = [4, 5, 6];
 
-console.log('befor calling function', num1, num2);
+console.log('before calling function', num1, num2);
 
 let result = firstSum (num1, num2);
 console.log(result);
